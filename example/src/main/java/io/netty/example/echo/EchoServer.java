@@ -71,6 +71,7 @@ public final class EchoServer {
             // Shut down all event loops to terminate all threads.
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
+
         }
     }
 }
